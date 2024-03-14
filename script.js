@@ -19,3 +19,9 @@ window.onload=()=>{
     if(dropdown)
         dropdown.textContent='MOUNTAIN 2'
 }
+
+Array.from(document.querySelector('.links .history')).forEach(a=>{
+    
+    a.href='#history'
+
+})
